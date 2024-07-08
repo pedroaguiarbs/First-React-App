@@ -1,9 +1,10 @@
 import React from "react";
+import { Routes } from "react-router-dom";
 
 export const App = () => {
   return (
     <div className="App">
-      <h1>Hellow World</h1>
+      <Routes />
     </div>
   );
 };
