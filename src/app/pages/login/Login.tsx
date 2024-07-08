@@ -20,6 +20,7 @@ export const Login = () => {
         <label htmlFor="">
           <span>Senha</span>
           <input
+            type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
